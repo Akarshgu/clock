@@ -423,19 +423,32 @@ position: absolute;
 
 }
 
-.set{
+button{
     box-sizing: border-box;
     background-image: linear-gradient(
     to right,#6E54EC,#F1A7C5  
     );
-    width:100%;
+    width: 100%;
     padding: 20px;
     text-align: center;
     color: white;
     font-size: 22px;
     border-radius: 10px;
-  
+  display: inline-block; 
+  border: none;
 
+}
+button .set1{
+    display:none;
+   
+    
+}
+button:hover .set{
+    display:none;
+}
+button:hover .set1{
+    display: inline-block;
+   
 }
 .detail{
 box-sizing: border-box;
